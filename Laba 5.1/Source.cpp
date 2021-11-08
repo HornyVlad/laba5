@@ -5,10 +5,10 @@
 #include <queue>
 using namespace std;
 
-void BFS(int *vis, int **a, int size)
+void BFS(int *vis, int **a, int size, int num)
 {
 	queue <int> q;
-	int i, num = 0;
+	int i;
 	q.push(num);
 	vis[num] = 1;
 	while (!q.empty())
@@ -29,13 +29,15 @@ void BFS(int *vis, int **a, int size)
 
 int main()
 {
-	int i, j, size, ** a, * vis, ran;
+	int i, j, size, ** a, * vis, ran, num;
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	setvbuf(stdin, NULL, _IONBF, 0);
 	setvbuf(stdout, NULL, _IONBF, 0);
 	printf("Введите размеры массива ");
-	scanf_s("%d", &size);
+	scanf_s("%d", &size); 
+	printf("Введите начальную строку ");
+	scanf_s("%d", &num);
 	printf("Матрица смежности:\n");
 	a = (int**)malloc(size * sizeof(int));
 	vis = (int*)malloc(size * sizeof(int));
@@ -82,5 +84,5 @@ int main()
 	}
 	printf("\n");
 	printf("Очерёдность посещения вершин: ");
-	BFS(vis, a, size);
+	BFS(vis, a, size, num);
 }
