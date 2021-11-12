@@ -1,3 +1,4 @@
 ﻿  Source.cpp
-C:\Users\vladk\OneDrive\Рабочий стол\ПГУ\3 семестр\Логика (программирование)\Лаба 5\Laba 5.1\Source.cpp(44,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\vladk\OneDrive\Рабочий стол\ПГУ\3 семестр\Логика (программирование)\Лаба 5\Laba 5.1\Source.cpp(88,6): warning C4101: i: неиспользованная локальная переменная
+C:\Users\vladk\OneDrive\Рабочий стол\ПГУ\3 семестр\Логика (программирование)\Лаба 5\Laba 5.1\Source.cpp(123,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Laba 5.1.vcxproj -> C:\Users\vladk\OneDrive\Рабочий стол\ПГУ\3 семестр\Логика (программирование)\Лаба 5\x64\Debug\Laba 5.1.exe
